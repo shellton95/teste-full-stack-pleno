@@ -20,23 +20,6 @@ class AuthController extends BaseController
 
     public function login(Request $request)
     {
-        // try {
-
-        //     $data = $this->service->login($request);
-
-        //     return response()->json([
-        //         'success' => true,
-        //         'data' => $data
-        //     ], 201);
-
-        // } catch (\Exception $e) {
-        //     return response()->json([
-        //         'success' => false,
-        //         'message' => 'Erro: ' . $e->getMessage(),
-        //         'errors' => []
-        //     ], 500);
-        // }
-
         try {
             $data = $this->service->login($request);
 
