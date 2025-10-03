@@ -16,14 +16,6 @@
 npm install
 ```
 
-### 2. Configurar ambiente
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```env
-REACT_APP_API_URL=http://localhost:8000/api
-```
-
 ## Como Executar
 
 ### Opção 1: NPM

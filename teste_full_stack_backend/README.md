@@ -49,8 +49,8 @@ obs: verificar porta de acesso
 
 ```json
 {
-  "email": "admin@example.com",
-  "password": "password123"
+  "email": "testefull@teste.com",
+  "password": "12345678"
 }
 ```
 
