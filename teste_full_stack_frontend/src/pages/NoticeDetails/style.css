@@ -1,0 +1,17 @@
+.notice-details{
+    padding-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 600px;
+    height: 100%;      
+}
+
+h2{
+    font-size: 30px;
+}
+
+.prop-details{
+    display: flex;
+    justify-content: space-around;
+}
