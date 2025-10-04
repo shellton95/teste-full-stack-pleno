@@ -44,21 +44,6 @@ class AuthController extends BaseController
 
     public function register(UserCreateRequest $request)
     {
-        // try {
-        //     $this->service->register($request);
-
-        //     return response()->json([
-        //         'success' => true,
-        //         'message' => 'Usuário criado com sucesso!'
-        //     ], 201);
-
-        // } catch (\Exception $e) {
-        //     return response()->json([
-        //         'success' => false,
-        //         'message' => 'Erro ao criar usuário: ' . $e->getMessage(),
-        //         'errors' => []
-        //     ], 500);
-        // }
 
         try {
             $data = $this->service->register($request);
