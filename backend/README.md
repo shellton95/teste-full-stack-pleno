@@ -13,6 +13,7 @@
 ```bash
 composer install
 ```
+OBS: geração de chave: php artisan key:generate
 
 ### 2. Configurar ambiente
 
